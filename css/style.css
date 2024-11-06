@@ -1,0 +1,386 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(121, 6, 15);
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px rgb(124, 20, 20);
+    border-radius: 10px;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    nav ul {
+        background-color: rgb(231, 43, 10);
+    }
+}
+
+nav li a {
+    color: rgb(18, 0, 110);
+}
+
+nav li:hover {
+    background-color: rgb(231, 43, 10);
+}
+
+.text-right {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-3 {
+    padding: 16px 0;
+}
+
+.px-3 {
+    padding: 0 16px;
+}
+
+.p-3 {
+    padding: 16px;
+}
+
+.bg-azul-o {
+    background-color: rgb(222, 144, 0);
+}
+
+.bg-azul-c {
+    background-color: rgb(199, 158, 23);
+}
+
+.bg-orange {
+    background-color: rgb(255, 60, 0);
+}
+
+.text-white {
+    color: white;
+}
+
+.text-red {
+    color: red;
+    font-size: 30px;
+    background-color: cyan;
+}
+
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+
+    #menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 1000px) {
+    #menu {
+        display: block;
+    }
+}
+
+.etiqueta {
+    font-size: 28px;
+    color: red;
+    font-weight: bold;
+}
+
+.atributo {
+    color: green;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#enlaces a {
+    color: rgb(14, 173, 9);
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+#listas .customdes li {
+    list-style-type: square;
+}
+
+#listas .customdes li li {
+    list-style-type: disc;
+}
+
+#listas .customdes li li li {
+    list-style-type: circle;
+
+}
+
+#listas .customord li {
+    list-style-type: upper-alpha;
+}
+
+#listas .customord li li {
+    list-style-type: upper-alpha;
+}
+
+#listas .customord li li li {
+    list-style-type: upper-alpha;
+}
+
+#listas .customico li li {
+    list-style-image: url("/web/img/Mark_.png");
+}
+
+#listas .customico li li li {
+    list-style-image: none;
+    list-style-type: circle;
+}
+
+#listas .listadefcustom {
+    width: 30%;
+}
+
+#listas .listadefcustom dt {
+    display: inline;
+    background-color: rgb(69, 143, 118);
+    color: rgb(10, 10, 88);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.striped tr:nth-child(odd) {
+    background-color: rgb(242, 116, 116);
+}
+
+.striped tr:nth-child(even) {
+    background-color: rgb(107, 239, 145);
+}
+
+.tablafc th {
+    background-color: rgb(19, 19, 93);
+    color: white;
+}
+
+.lm {
+    background-color: #64b4ef;
+}
+
+.ende {
+    background-color: #96dc96
+}
+
+.sisi {
+    background-color: #0080ff;
+}.prog {
+    background-color: #d2d26e;
+}
+
+.dasp {
+    background-color: #ffa264;
+}
+
+.bdd {
+    background-color: #65aa97;
+}
+
+.ipe {
+    background-color: #eff0c8;
+}
+
+.ipcg {
+    background-color: #00df01;
+}
+
+.ipcg {
+    background-color: #bd7778;
+}
+
+.sasp {
+    background-color: #d1d2fe;
+}
+
+.horario {
+    width: 200%;
+    margin: 20 auto;
+}
+.formlogin {
+    float: left;
+    width: 50%;
+}
+.formregister {
+    float: right;
+    width: 50%;
+}
+.cb {
+    clear: both;
+}
+.formhtml5 {
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(255, 247, 141);
+}
+.formhtml5 legend {
+    background-color: rgb(245, 45, 62);
+    color: rgb(223, 150, 56);
+    font-size: 22px;
+}
+.formhtml5 label {
+    background-color: rgb(150, 185, 69);
+    color: rgb(191, 243, 204);
+    font-size: 16px;
+}
+.btn {
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.btn-red {
+    background-color: rgb(218, 19, 19);
+    color: white;
+}
+.btn-green {
+    background-color: rgb(4, 44, 14);
+    color: rgb(177, 245, 174);
+}
+.col3{
+    width:33.33%;
+    float: left;
+}
