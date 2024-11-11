@@ -265,7 +265,7 @@ h1 {
 }
 
 #listas .customico li li {
-    list-style-image: url("/web/img/Mark_.png");
+    list-style-image: url("img/Mark_.png");
 }
 
 #listas .customico li li li {
