@@ -2,7 +2,9 @@ body {
     margin: 0;
     background-color: #df9100;
 }
-
+header{
+    background-color: rgb(252, 174, 128);
+}
 * {
     box-sizing: border-box;
     color: rgb(121, 6, 15);
@@ -135,7 +137,7 @@ nav li {
 }
 
 nav li a {
-    color: rgb(18, 0, 110);
+    color: rgb(68, 7, 7);
 }
 
 nav li:hover {
@@ -384,4 +386,13 @@ h1 {
 .col3{
     width:33.33%;
     float: left;
+}
+.img{
+    width:200px;
+    height:200px
+    border=20px;
+}
+.imágenes{
+    display:flex;
+    justify-content:space-between;
 }
